@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Stefanie Barfoot is a professional Front-end Developer based in New Zealand. Check out my portfolio to see my latest projects and skills."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,18 +31,20 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="Styles/styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+
+    <title>Stefanie Barfoot - Portfolio</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
         <img src="images/logo.png" class="logo" alt="SheCodes Logo" />
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="active"><a href="index.html" title="Homepage">Home</a></li>
+          <li><a href="about.html" title="About Stefanie">About</a></li>
+          <li>
+            <a href="projects.html" title="Stefanie's Projects">Projects</a>
+          </li>
+          <li><a href="contact.html" title="Contact Stefanie">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -46,7 +53,12 @@
       <h1>Stefanie Barfoot</h1>
       <h2 class="mb-5">Front-end Developer based in New Zealand</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact Me</a>
+        <a
+          href="/contact.html"
+          class="btn btn-branding"
+          title="Contact Stefanie"
+          >Contact Me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -63,7 +75,9 @@
             <p class="mb-5 text-muted">
               A simple yogurt recipe app built with HTML, CSS, and JavaScript.
             </p>
-            <a href="#" class="btn btn-branding-outline">View Project</a>
+            <a href="/projects.html" class="btn btn-branding-outline"
+              >View Project</a
+            >
           </div>
         </div>
       </div>
@@ -74,7 +88,9 @@
             <p class="mb-5 text-muted">
               A simple dictionary app built with HTML, CSS, and JavaScript.
             </p>
-            <a href="#" class="btn btn-branding-outline">View Project</a>
+            <a href="/projects.html" class="btn btn-branding-outline"
+              >View Project</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -99,7 +115,9 @@
             <p class="mb-5 text-muted">
               A simple weather app built with HTML, CSS, and JavaScript.
             </p>
-            <a href="#" class="btn btn-branding-outline">View Project</a>
+            <a href="/projects.html" class="btn btn-branding-outline"
+              >View Project</a
+            >
           </div>
         </div>
       </div>
@@ -112,22 +130,41 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact Me</a>
+            <a href="/contact.html" class="btn btn-branding">Contact Me</a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:stefaniebarfoot@gmail.com" class="email-link"
+          <a
+            href="mailto:stefaniebarfoot@gmail.com"
+            class="email-link"
+            title="Email Stefanie"
             >stefaniebarfoot@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://linkedin.com/in/stefanie-barfoot" target="_blank">
+          <a
+            href="https://linkedin.com/in/stefanie-barfoot"
+            target="_blank"
+            title="Stefanie's LinkedIn"
+          >
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://github.com/stefaniebarfoot" target="_blank">
+          <a
+            href="https://github.com/stefaniebarfoot"
+            target="_blank"
+            title="Stefanie's GitHub Profile"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
         </div>
+        <p class="text-center text-muted">
+          This project was coded by Stefanie Barfoot and is
+          <a
+            href="https://github.com/stefaniebarfoot/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
